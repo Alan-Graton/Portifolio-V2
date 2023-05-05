@@ -1,0 +1,117 @@
+#root {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.container {
+  width: 70rem;
+  min-width: 320px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.contact_btn {
+  position: absolute;
+
+  top: 0;
+  right: 0;
+
+  margin: 1rem;
+
+  z-index: 1;
+}
+
+.profile {
+  height: 15em;
+  padding: 1.5em;
+
+  border-radius: 20%;
+
+  border: 5px solid hsl(0, 0%, 40%);
+
+  padding: 5px;
+  background: hsl(0, 0%, 20%);
+
+  outline: 5px solid hsl(0, 0%, 60%);
+
+  box-shadow: 0 0 0 10px hsl(0, 0%, 80%), 0 0 0 15px hsl(0, 0%, 90%);
+}
+
+.presentation_card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+  width: 25rem;
+
+  padding: 2rem;
+
+  border: 2px solid #101010;
+  border-radius: 5% 20%;
+
+  transition: 1s;
+}
+
+.presentation_card:hover {
+  background-color: #101010;
+  color: white;
+
+  transition: 1s;
+}
+
+.badge_card {
+  width: 6rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  flex-wrap: wrap;
+
+  gap: 7px;
+
+  padding: 5px;
+}
+
+.presentation_text {
+}
+
+.presentation_text p {
+  font-size: 20px;
+}
+
+.presentation_text .keep_scrolling_text {
+  text-decoration: underline;
+}
+
+.badge_card img {
+  width: 2rem;
+  height: 2rem;
+
+  animation: badge-spin infinite 20s linear;
+}
+
+@keyframes badge-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .badge img {
+    animation: badge-spin infinite 20s linear;
+  }
+}
+
+.read-the-docs {
+  color: #888;
+}
