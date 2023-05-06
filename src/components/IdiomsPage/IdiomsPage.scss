@@ -12,7 +12,7 @@
 
     .idiom_card {
       width: 15rem;
-      height: 17rem;
+      height: 20rem;
 
       border-radius: 10px;
 
@@ -30,31 +30,66 @@
         transition: 0.2s;
       }
 
-      .idiom_card__header {
-        h3 {
+      .idiom_card__content {
+        width: 100%;
+        height: 100%;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-items: space-between;
+        .idiom_card__header {
+          h3 {
+          }
         }
-      }
 
-      .idiom_card__body {
-        p {
-          font-weight: 500;
-          letter-spacing: 2px;
+        .idiom_card__body {
+          p {
+            font-weight: 500;
+            letter-spacing: 2px;
+          }
+
+          div {
+            img {
+              width: 5rem;
+            }
+          }
         }
 
-        div {
-          border-top: 1px solid #d3d3d3;
-          border-bottom: 1px solid #d3d3d3;
-
-          img {
-            width: 5rem;
+        .idiom_card__footer {
+          p {
+            font-weight: 500;
+            letter-spacing: 2px;
           }
         }
       }
+    }
+  }
+}
 
-      .idiom_card__footer {
-        p {
-            font-weight: 500;
-            letter-spacing: 2px;
+@media (max-width: 450px) {
+  .idioms_section {
+    h2 {
+      font-size: 2em;
+    }
+    .idioms_cards {
+      .idiom_card {
+        .idiom_card__content {
+          .idiom_card__header {
+            h3 {
+              font-size: 1.3em;
+            }
+          }
+          .idiom_card__body {
+            p {
+              font-size: 1.2em;
+            }
+          }
+          .idiom_card__footer {
+            p {
+              font-size: 1.2em;
+            }
+          }
         }
       }
     }

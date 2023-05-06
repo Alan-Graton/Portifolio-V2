@@ -14,59 +14,67 @@ export default function IdiomsPage() {
         <h2>Idioms</h2>
         <div className="idioms_cards">
           <div className="idiom_card">
-            <div className="idiom_card__header">
-              <h3>Portuguese (BR)</h3>
-            </div>
-            <div className="idiom_card__body">
-              <div>
-                <img src={portuguese} alt="Brazilian Portuguese" />
+            <div className="idiom_card__content">
+              <div className="idiom_card__header">
+                <h3>Portuguese (BR)</h3>
               </div>
-              <p>...</p>
-            </div>
-            <div className="idiom_card__footer">
-              <p>Native Speaker</p>
+              <div className="idiom_card__body">
+                <div>
+                  <img src={portuguese} alt="Brazilian Portuguese" />
+                </div>
+                <p>I'm from Brazil, so...</p>
+              </div>
+              <div className="idiom_card__footer">
+                <p>Native Speaker</p>
+              </div>
             </div>
           </div>
           <div className="idiom_card">
-            <div className="idiom_card__header">
-              <h3>English</h3>
-            </div>
-            <div className="idiom_card__body">
-              <div>
-                <img src={english} alt="English" />
+            <div className="idiom_card__content">
+              <div className="idiom_card__header">
+                <h3>English</h3>
               </div>
-              <p>Studied in CNA for 8 years or so</p>
-            </div>
-            <div className="idiom_card__footer">
-              <p>Fluent</p>
+              <div className="idiom_card__body">
+                <div>
+                  <img src={english} alt="English" />
+                </div>
+                <p>Studied in CNA for 8 years or so</p>
+              </div>
+              <div className="idiom_card__footer">
+                <p>Fluent</p>
+              </div>
             </div>
           </div>
           <div className="idiom_card">
-            <div className="idiom_card__header">
-              <h3>Spanish</h3>
-            </div>
-            <div className="idiom_card__body">
-              <div>
-                <img src={spanish} alt="Spanish" />
+            <div className="idiom_card__content">
+              <div className="idiom_card__header">
+                <h3>Spanish</h3>
               </div>
-              <p>Studied in CNA for 2 years</p>
-            </div>
-            <div className="idiom_card__footer">
-              <p>Advanced</p>
+              <div className="idiom_card__body">
+                <div>
+                  <img src={spanish} alt="Spanish" />
+                </div>
+                <p>Studied in CNA for 2 years</p>
+              </div>
+              <div className="idiom_card__footer">
+                <p>Advanced</p>
+              </div>
             </div>
           </div>
           <div className="idiom_card">
-            <div className="idiom_card__header">
-              <h3>German</h3>
-            </div>
-            <div className="idiom_card__body">
-              <div>
-                <img src={german} alt="German" />
+            <div className="idiom_card__content">
+              <div className="idiom_card__header">
+                <h3>German</h3>
               </div>
-              <p>Currently studying in Goethe Institut</p>
-            </div>
-            <div className="idiom_card__footer">
-              <p>Basic/Intermediate</p>
+              <div className="idiom_card__body">
+                <div>
+                  <img src={german} alt="German" />
+                </div>
+                <p>Currently studying in Goethe Institut</p>
+              </div>
+              <div className="idiom_card__footer">
+                <p>Basic/Intermediate</p>
+              </div>
             </div>
           </div>
         </div>

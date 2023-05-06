@@ -1,12 +1,20 @@
 import React from "react";
 
+import react_logo from "../../assets/react.svg";
+import css3_logo from "../../assets/css3.svg";
+import awslambda_logo from "../../assets/awslambda.svg";
+import html5_logo from "../../assets/html-5.svg";
+import nodeJS_logo from "../../assets/node-js.svg";
+import javascript_logo from "../../assets/javascript.svg";
+import typescript_logo from "../../assets/typescript.svg";
+import serverless_logo from "../../assets/serverless.svg";
+
 import "./ProjectsPage.scss";
 
 export default function ProjectsPage() {
   return (
     <>
       {/* TODO: Add a img as background on these cards */}
-      {/* TODO: Title: Project, Body: Description, Footer: Techs */}
       <section className="projects_section">
         <h2>Projects</h2>
         <div className="projects_list">
@@ -16,12 +24,19 @@ export default function ProjectsPage() {
                 <h3>2B Contab - Web Portal</h3>
               </div>
               <div className="project_card__body">
-                <p>
-                  Develop a Web Portal by my self using a template.
-                </p>
+                <p>Develop a Web Portal by my self using a template.</p>
               </div>
               <div className="project_card__footer">
-                <p>I'm the Footer</p>
+                <p>Techs</p>
+                <div className="project_techs_group">
+                  <img src={react_logo} alt="React Logo" />
+                  <img src={html5_logo} alt="HTML5 Logo" />
+                  <img src={css3_logo} alt="CSS3 Logo" />
+                  <img src={javascript_logo} alt="JavaScript Logo" />
+                  <img src={nodeJS_logo} alt="Node-JS Logo" />
+                  <img src={awslambda_logo} alt="AWS Lambdas Logo" />
+                  <img src={serverless_logo} alt="Serverless Logo" />
+                </div>
               </div>
             </div>
           </div>
@@ -34,7 +49,17 @@ export default function ProjectsPage() {
                 <p>My first team programming project with a Mid Dev.</p>
               </div>
               <div className="project_card__footer">
-                <p>I'm the Footer</p>
+                <p>Techs</p>
+                <div className="project_techs_group">
+                  <img src={react_logo} alt="React Logo" />
+                  <img src={html5_logo} alt="HTML5 Logo" />
+                  <img src={css3_logo} alt="CSS3 Logo" />
+                  <img src={javascript_logo} alt="JavaScript Logo" />
+                  <img src={typescript_logo} alt="TypeScript Logo" />
+                  <img src={nodeJS_logo} alt="Node-JS Logo" />
+                  <img src={awslambda_logo} alt="AWS Lambdas Logo" />
+                  <img src={serverless_logo} alt="Serverless Logo" />
+                </div>
               </div>
             </div>
           </div>
@@ -50,7 +75,16 @@ export default function ProjectsPage() {
                 </p>
               </div>
               <div className="project_card__footer">
-                <p>I'm the Footer</p>
+                <p>Techs</p>
+                <div className="project_techs_group">
+                  <img src={react_logo} alt="React Logo" />
+                  <img src={css3_logo} alt="CSS3 Logo" />
+                  <img src={javascript_logo} alt="JavaScript Logo" />
+                  <img src={typescript_logo} alt="TypeScript Logo" />
+                  <img src={nodeJS_logo} alt="Node-JS Logo" />
+                  <img src={awslambda_logo} alt="AWS Lambdas Logo" />
+                  <img src={serverless_logo} alt="Serverless Logo" />
+                </div>
               </div>
             </div>
           </div>
@@ -63,7 +97,13 @@ export default function ProjectsPage() {
                 <p>Web Portal for personal use.</p>
               </div>
               <div className="project_card__footer">
-                <p>I'm the Footer</p>
+                <p>Techs</p>
+                <div className="project_techs_group">
+                  <img src={react_logo} alt="React Logo" />
+                  <img src={html5_logo} alt="HTML5 Logo" />
+                  <img src={css3_logo} alt="CSS3 Logo" />
+                  <img src={javascript_logo} alt="JavaScript Logo" />
+                </div>
               </div>
             </div>
           </div>
