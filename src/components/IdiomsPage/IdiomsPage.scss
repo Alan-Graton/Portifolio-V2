@@ -1,0 +1,50 @@
+.idioms_section {
+  width: 100%;
+  .idioms_cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    flex-wrap: wrap;
+
+    padding: 1rem;
+    gap: 1rem;
+
+    .idiom_card {
+      width: 15rem;
+      height: 17rem;
+
+      border-radius: 10px;
+
+      border: 2px solid black;
+
+      padding: 10px;
+
+      transition: 0.2s;
+
+      &:hover {
+        transform: translateY(-5px);
+
+        transition: 0.2s;
+      }
+
+      .idiom_card__header {
+        h3 {
+        }
+      }
+
+      .idiom_card__body {
+        div {
+          border-top: 1px solid #d3d3d3;
+          border-bottom: 1px solid #d3d3d3;
+          img {
+            width: 5rem;
+          }
+        }
+      }
+
+      .idiom_card__footer {
+      }
+    }
+  }
+}
