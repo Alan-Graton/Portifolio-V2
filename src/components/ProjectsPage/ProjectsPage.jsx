@@ -16,7 +16,9 @@ export default function ProjectsPage() {
                 <h3>2B Contab - Web Portal</h3>
               </div>
               <div className="project_card__body">
-                <p>I'm the body</p>
+                <p>
+                  Develop a Web Portal by my self using a template.
+                </p>
               </div>
               <div className="project_card__footer">
                 <p>I'm the Footer</p>
@@ -29,7 +31,7 @@ export default function ProjectsPage() {
                 <h3>Fenix Group of Companies - Web Portal</h3>
               </div>
               <div className="project_card__body">
-                <p>I'm the body</p>
+                <p>My first team programming project with a Mid Dev.</p>
               </div>
               <div className="project_card__footer">
                 <p>I'm the Footer</p>
@@ -42,7 +44,10 @@ export default function ProjectsPage() {
                 <h3>Fenix Group of Companies - Mobile App</h3>
               </div>
               <div className="project_card__body">
-                <p>I'm the body</p>
+                <p>
+                  Developed my first Mobile App which is connected to Fenix Web
+                  Portal.
+                </p>
               </div>
               <div className="project_card__footer">
                 <p>I'm the Footer</p>
@@ -55,7 +60,7 @@ export default function ProjectsPage() {
                 <h3>CCB RJM - Web Portal</h3>
               </div>
               <div className="project_card__body">
-                <p>I'm the body</p>
+                <p>Web Portal for personal use.</p>
               </div>
               <div className="project_card__footer">
                 <p>I'm the Footer</p>

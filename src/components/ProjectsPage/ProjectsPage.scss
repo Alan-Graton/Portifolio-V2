@@ -38,3 +38,32 @@
     }
   }
 }
+
+@media (max-width: 450px) {
+  .projects_section {
+    h2 {
+      font-size: 2em;
+    }
+    .projects_list {
+      .project_card {
+        .project_card__content {
+          .project_card__header {
+            h3 {
+              font-size: 1.5em;
+            }
+          }
+          .project_card__body {
+            p {
+              font-size: 1.6em;
+            }
+          }
+          .project_card__footer {
+            p {
+              font-size: 1.3em;
+            }
+          }
+        }
+      }
+    }
+  }
+}

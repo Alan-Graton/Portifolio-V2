@@ -142,3 +142,51 @@
     animation: badge-spin infinite 20s linear;
   }
 }
+
+/* RESPONSIVINESS */
+@media (max-width: 780px) {
+  .presentation_section {
+    .presentation_card {
+      display: flex;
+      flex-direction: column;
+
+      min-width: 15rem;
+      min-height: 15rem;
+
+      height: 21.5rem;
+
+      .card_profile {
+        .profile {
+          width: 10rem;
+          height: 10rem;
+        }
+
+        h1 {
+          font-size: 2em;
+        }
+      }
+
+      .badge_card {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        flex-wrap: wrap;
+
+        gap: 7px;
+        padding: 5px;
+      }
+    }
+  }
+}
+
+@media (max-width: 450px) {
+  .presentation_section {
+    .presentation_text {
+      p {
+        font-size: 26px;
+        font-weight: 600;
+        letter-spacing: 2px;
+        text-align: center;
+      }
+    }
+  }
+}

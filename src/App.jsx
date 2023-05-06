@@ -16,8 +16,8 @@ function App() {
         </div>
         <LandingPage />
         <MyTimeInVG />
-        <IdiomsPage />
         <ProjectsPage />
+        <IdiomsPage />
       </div>
     </>
   );
