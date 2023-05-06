@@ -2,10 +2,10 @@
 
 ## Tasks
 
-- [ ] Add "Projects" screen
-- [ ] Add "Idioms" screen
-- [ ] Add "Social Media" component
-- [ ] Respect responsiviness
+- [X] Add "Projects" screen
+- [X] Add "Idioms" screen
+- [X] Add "Social Media" component
+- [X] Respect responsiviness
 
 ## Screens
 
