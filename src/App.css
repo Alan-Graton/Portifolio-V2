@@ -117,6 +117,18 @@
   text-decoration: underline;
 }
 
+.quick_presentation__company {
+  cursor: pointer;
+
+  transition: 0.2s;
+}
+
+.quick_presentation__company:hover {
+  color: #9E9EF4;
+
+  transition: 0.2s;
+}
+
 .badge_card img {
   width: 2rem;
   height: 2rem;
