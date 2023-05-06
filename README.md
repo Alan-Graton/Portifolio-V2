@@ -6,6 +6,7 @@
 - [X] Add "Idioms" screen
 - [X] Add "Social Media" component
 - [X] Respect responsiviness
+- [ ] Add more style onHover for `Projects Cards`
 
 ## Screens
 
