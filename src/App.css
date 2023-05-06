@@ -41,14 +41,14 @@
 
   border-radius: 20%;
 
-  border: 5px solid hsl(0, 0%, 40%);
+  border: 5px solid #666666;
 
   padding: 5px;
-  background: hsl(0, 0%, 20%);
+  background: #333333;
 
-  outline: 5px solid hsl(0, 0%, 60%);
+  outline: 5px solid #999999;
 
-  box-shadow: 0 0 0 10px hsl(0, 0%, 80%), 0 0 0 15px hsl(0, 0%, 90%);
+  box-shadow: 0 0 0 10px #cccccc, 0 0 0 15px #e6e6e6;
 
   transition: 1s;
 }
@@ -76,15 +76,15 @@
   transition: 1s;
 }
 
-/* Still a work on progress... */
 .presentation_card:hover .profile {
-  border: 5px solid hsl(180, 0%, 50%);
+  border: 5px solid #cccccc;
 
-  background: hsl(180, 0%, 30%);
+  padding: 5px;
+  background: #e6e6e6;
 
-  outline: 5px solid hsl(180, 0%, 80%);
+  outline: 5px solid #999999;
 
-  box-shadow: 0 0 0 10px hsl(180, 0%, 30%), 0 0 0 15px hsl(180, 0%, 15%);
+  box-shadow: 0 0 0 10px #666666, 0 0 0 15px #333333;
 
   transition: 1s;
 }
@@ -123,8 +123,12 @@
   transition: 0.2s;
 }
 
+.quick_presentation_text a {
+  color: #4d4dfa;
+}
+
 .quick_presentation__company:hover {
-  color: #9E9EF4;
+  color: #8181cf;
 
   transition: 0.2s;
 }
@@ -133,7 +137,17 @@
   width: 2rem;
   height: 2rem;
 
+  filter: grayscale(1);
+
+  transition: 0.2s;
+
   animation: badge-spin infinite 20s linear;
+}
+
+.presentation_card:hover .badge_card img {
+  filter: none;
+
+  transition: 0.2s;
 }
 
 @keyframes badge-spin {
