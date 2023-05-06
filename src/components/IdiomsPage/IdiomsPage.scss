@@ -25,6 +25,8 @@
       &:hover {
         transform: translateY(-5px);
 
+        border-color: #646cff;
+
         transition: 0.2s;
       }
 
@@ -34,9 +36,15 @@
       }
 
       .idiom_card__body {
+        p {
+          font-weight: 500;
+          letter-spacing: 2px;
+        }
+
         div {
           border-top: 1px solid #d3d3d3;
           border-bottom: 1px solid #d3d3d3;
+
           img {
             width: 5rem;
           }
@@ -44,6 +52,10 @@
       }
 
       .idiom_card__footer {
+        p {
+            font-weight: 500;
+            letter-spacing: 2px;
+        }
       }
     }
   }
