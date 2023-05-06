@@ -7,7 +7,7 @@
 }
 
 .container {
-  width: 70rem;
+  width: 100%;
   min-width: 320px;
 
   display: flex;
@@ -26,6 +26,15 @@
   z-index: 1;
 }
 
+.control_theme_div {
+  position: fixed;
+
+  top: 0;
+  right: 0;
+
+  margin: 1rem;
+}
+
 .profile {
   height: 15em;
   padding: 1.5em;
@@ -40,6 +49,8 @@
   outline: 5px solid hsl(0, 0%, 60%);
 
   box-shadow: 0 0 0 10px hsl(0, 0%, 80%), 0 0 0 15px hsl(0, 0%, 90%);
+
+  transition: 1s;
 }
 
 .presentation_card {
@@ -65,6 +76,19 @@
   transition: 1s;
 }
 
+/* Still a work on progress... */
+.presentation_card:hover .profile {
+  border: 5px solid hsl(180, 0%, 50%);
+
+  background: hsl(180, 0%, 30%);
+
+  outline: 5px solid hsl(180, 0%, 80%);
+
+  box-shadow: 0 0 0 10px hsl(180, 0%, 30%), 0 0 0 15px hsl(180, 0%, 15%);
+
+  transition: 1s;
+}
+
 .badge_card {
   width: 6rem;
 
@@ -80,10 +104,13 @@
 }
 
 .presentation_text {
+  margin: 1rem;
 }
 
 .presentation_text p {
   font-size: 20px;
+  letter-spacing: 2px;
+  text-align: center;
 }
 
 .presentation_text .keep_scrolling_text {

@@ -20,6 +20,9 @@ function App() {
   return (
     <>
       <div className="container">
+        <div className="control_theme_div">
+          <button className="control_theme_btn">Light/Dark Mode</button>
+        </div>
         <aside
           className="presentation_card"
           onMouseEnter={() => setCardHover(true)}
