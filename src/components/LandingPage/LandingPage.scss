@@ -1,123 +1,130 @@
-.presentation_card {
+.presentation_section {
   display: flex;
   align-items: center;
-  justify-content: center;
-  text-align: center;
 
-  width: 25rem;
+  padding: 5px;
 
-  padding: 2rem;
-
-  border: 2px solid #101010;
-  border-radius: 5% 20%;
-
-  transition: 1s;
-
-  &:hover {
-    background-color: #101010;
-    color: white;
-
-    transition: 1s;
-  }
-
-  &:hover .card_profile {
-    .profile {
-      border: 5px solid #cccccc;
-
-      padding: 5px;
-      background: #e6e6e6;
-
-      outline: 5px solid #999999;
-
-      box-shadow: 0 0 0 10px #666666, 0 0 0 15px #333333;
-
-      transition: 1s;
-    }
-  }
-
-  &:hover .badge_card {
-    img {
-      filter: none;
-
-      transition: 0.2s;
-    }
-  }
-
-  .card_profile {
-    .profile {
-      height: 15em;
-      padding: 1.5em;
-
-      border-radius: 20%;
-
-      border: 5px solid #666666;
-
-      padding: 5px;
-      background: #333333;
-
-      outline: 5px solid #999999;
-
-      box-shadow: 0 0 0 10px #cccccc, 0 0 0 15px #e6e6e6;
-
-      transition: 1s;
-    }
-  }
-
-  .badge_card {
-    width: 6rem;
-
+  .presentation_card {
     display: flex;
     align-items: center;
     justify-content: center;
-
-    flex-wrap: wrap;
-
-    gap: 7px;
-
-    padding: 5px;
-
-    img {
-      width: 2rem;
-      height: 2rem;
-
-      filter: grayscale(1);
-
-      transition: 0.2s;
-
-      animation: badge-spin infinite 20s linear;
-    }
-  }
-}
-
-.presentation_text {
-  margin: 1rem;
-
-  p {
-    font-size: 20px;
-    letter-spacing: 2px;
     text-align: center;
-  }
 
-  .quick_presentation_text {
-    a {
-      color: #4d4dfa;
+    width: 25rem;
+
+    padding: 2rem;
+
+    border: 2px solid #101010;
+    border-radius: 5% 20%;
+
+    transition: 1s;
+
+    &:hover {
+      background-color: #101010;
+      color: white;
+
+      transition: 1s;
     }
 
-    .quick_presentation__company {
-      cursor: pointer;
+    &:hover .card_profile {
+      .profile {
+        border: 5px solid #cccccc;
 
-      transition: 0.2s;
+        padding: 5px;
+        background: #e6e6e6;
 
-      &:hover {
-        color: #8181cf;
+        outline: 5px solid #999999;
+
+        box-shadow: 0 0 0 10px #666666, 0 0 0 15px #333333;
+
+        transition: 1s;
+      }
+    }
+
+    &:hover .badge_card {
+      img {
+        filter: none;
 
         transition: 0.2s;
       }
     }
+
+    .card_profile {
+      .profile {
+        height: 15em;
+        padding: 1.5em;
+
+        border-radius: 20%;
+
+        border: 5px solid #666666;
+
+        padding: 5px;
+        background: #333333;
+
+        outline: 5px solid #999999;
+
+        box-shadow: 0 0 0 10px #cccccc, 0 0 0 15px #e6e6e6;
+
+        transition: 1s;
+      }
+    }
+
+    .badge_card {
+      width: 6rem;
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      flex-wrap: wrap;
+
+      gap: 7px;
+
+      padding: 5px;
+
+      img {
+        width: 2rem;
+        height: 2rem;
+
+        filter: grayscale(1);
+
+        transition: 0.2s;
+
+        animation: badge-spin infinite 20s linear;
+      }
+    }
   }
 
-  .keep_scrolling_text {
-    text-decoration: underline;
+  .presentation_text {
+    margin: 1rem;
+
+    p {
+      font-size: 20px;
+      letter-spacing: 2px;
+      text-align: center;
+    }
+
+    .quick_presentation_text {
+      a {
+        color: #4d4dfa;
+      }
+
+      .quick_presentation__company {
+        cursor: pointer;
+
+        transition: 0.2s;
+
+        &:hover {
+          color: #8181cf;
+
+          transition: 0.2s;
+        }
+      }
+    }
+
+    .keep_scrolling_text {
+      text-decoration: underline;
+    }
   }
 }
 

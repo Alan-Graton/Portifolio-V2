@@ -3,6 +3,7 @@ import React from "react";
 import "./App.css";
 
 import LandingPage from "./components/LandingPage/LandingPage";
+import IdiomsPage from "./components/IdiomsPage/IdiomsPage";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
           <button className="control_theme_btn">Light/Dark Mode</button>
         </div>
         <LandingPage />
+        <IdiomsPage />
       </div>
     </>
   );
