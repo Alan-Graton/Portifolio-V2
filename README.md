@@ -12,3 +12,11 @@
 ### Landing Page
 
 ![Landing Page](./public/prototypes/LandingPage.jpg)
+
+### Projects Page
+
+![Projects Page](./public/prototypes/ProjectsPage.jpg)
+
+### Idioms Page
+
+![Idioms Page](./public/prototypes/IdiomsPage.jpg)
