@@ -6,6 +6,8 @@
 - [X] Add "Idioms" screen
 - [X] Add "Social Media" component
 - [X] Respect responsiviness
+- [X] Create Contact Modal
+- [ ] Send E-mails(using same tech from previous Portifolio)
 - [ ] Add more style onHover for `Projects Cards`
 - [ ] Enable `Light/Dark` mode
 
