@@ -1,13 +1,16 @@
 import React from "react";
 
 import react_logo from "../../assets/react.svg";
-import css3_logo from "../../assets/css3.svg";
-import awslambda_logo from "../../assets/awslambda.svg";
-import html5_logo from "../../assets/html-5.svg";
-import nodeJS_logo from "../../assets/node-js.svg";
 import javascript_logo from "../../assets/javascript.svg";
+import css3_logo from "../../assets/css3.svg";
+import html5_logo from "../../assets/html-5.svg";
+import coreui_logo from "../../assets/coreui.svg";
+import nodeJS_logo from "../../assets/node-js.svg";
+import awslambda_logo from "../../assets/awslambda.svg";
 import typescript_logo from "../../assets/typescript.svg";
 import serverless_logo from "../../assets/serverless.svg";
+import light_expo_logo from "../../assets/light_expo.svg";
+import dark_expo_logo from "../../assets/dark_expo.svg";
 
 import "./ProjectsPage.scss";
 
@@ -36,6 +39,7 @@ export default function ProjectsPage() {
                   <img src={nodeJS_logo} alt="Node-JS Logo" />
                   <img src={awslambda_logo} alt="AWS Lambdas Logo" />
                   <img src={serverless_logo} alt="Serverless Logo" />
+                  <img src={coreui_logo} alt="Coreui React Logo" />
                 </div>
               </div>
             </div>
@@ -59,6 +63,7 @@ export default function ProjectsPage() {
                   <img src={nodeJS_logo} alt="Node-JS Logo" />
                   <img src={awslambda_logo} alt="AWS Lambdas Logo" />
                   <img src={serverless_logo} alt="Serverless Logo" />
+                  <img src={coreui_logo} alt="Coreui React Logo" />
                 </div>
               </div>
             </div>
@@ -84,6 +89,7 @@ export default function ProjectsPage() {
                   <img src={nodeJS_logo} alt="Node-JS Logo" />
                   <img src={awslambda_logo} alt="AWS Lambdas Logo" />
                   <img src={serverless_logo} alt="Serverless Logo" />
+                  <img src={light_expo_logo} alt="Expo Logo" />
                 </div>
               </div>
             </div>
