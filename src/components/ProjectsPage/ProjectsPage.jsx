@@ -21,7 +21,8 @@ export default function ProjectsPage() {
       <section className="projects_section">
         <h2>Projects</h2>
         <div className="projects_list">
-          <div className="project_card">
+          {/* TODO: On hover, remove all text from cards and let only the images */}
+          <div className="project_card Contab_project">
             <div className="project_card__content">
               <div className="project_card__header">
                 <h3>2B Contab - Web Portal</h3>
@@ -44,7 +45,7 @@ export default function ProjectsPage() {
               </div>
             </div>
           </div>
-          <div className="project_card">
+          <div className="project_card FenixPortal_project">
             <div className="project_card__content">
               <div className="project_card__header">
                 <h3>Fenix Group of Companies - Web Portal</h3>
@@ -68,7 +69,7 @@ export default function ProjectsPage() {
               </div>
             </div>
           </div>
-          <div className="project_card">
+          <div className="project_card FenixApp_project">
             <div className="project_card__content">
               <div className="project_card__header">
                 <h3>Fenix Group of Companies - Mobile App</h3>
@@ -94,7 +95,7 @@ export default function ProjectsPage() {
               </div>
             </div>
           </div>
-          <div className="project_card">
+          <div className="project_card PrayingTable_project">
             <div className="project_card__content">
               <div className="project_card__header">
                 <h3>CCB RJM - Web Portal</h3>

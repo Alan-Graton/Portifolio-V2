@@ -13,7 +13,7 @@ export default function IdiomsPage() {
       <section className="idioms_section">
         <h2>Idioms</h2>
         <div className="idioms_cards">
-          <div className="idiom_card">
+          <div className="idiom_card portuguese">
             <div className="idiom_card__content">
               <div className="idiom_card__header">
                 <h3>Portuguese (BR)</h3>
@@ -29,7 +29,7 @@ export default function IdiomsPage() {
               </div>
             </div>
           </div>
-          <div className="idiom_card">
+          <div className="idiom_card english">
             <div className="idiom_card__content">
               <div className="idiom_card__header">
                 <h3>English</h3>
@@ -45,7 +45,7 @@ export default function IdiomsPage() {
               </div>
             </div>
           </div>
-          <div className="idiom_card">
+          <div className="idiom_card spanish">
             <div className="idiom_card__content">
               <div className="idiom_card__header">
                 <h3>Spanish</h3>
@@ -61,7 +61,7 @@ export default function IdiomsPage() {
               </div>
             </div>
           </div>
-          <div className="idiom_card">
+          <div className="idiom_card german">
             <div className="idiom_card__content">
               <div className="idiom_card__header">
                 <h3>German</h3>

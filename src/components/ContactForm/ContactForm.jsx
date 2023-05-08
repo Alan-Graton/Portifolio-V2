@@ -7,8 +7,6 @@ export default function ContactForm() {
   return (
     <>
       <form className="contact__form">
-        {/* FIXME: Remove this */}
-        <h1>Contact Form</h1>
         <div className="form__content">
           <div className="form__body">
             <input placeholder="Your name" />

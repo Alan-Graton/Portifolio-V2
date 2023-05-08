@@ -6,7 +6,11 @@
   position: fixed;
 
   display: flex;
+  align-items: center;
   justify-content: center;
+
+  top: 0;
+  left: 0;
 
   background-color: #656464cc;
 
@@ -17,8 +21,10 @@
 
   padding: 1em;
 
+  z-index: 1;
+
   .contact__modal {
-    background-color: white;
+    background-color: #ffffff;
 
     width: 30rem;
     height: 30rem;
@@ -26,19 +32,21 @@
     border-radius: 5px;
 
     outline: 1px solid #d3d3d3;
+
     .contact_modal_content {
       display: flex;
       flex-direction: column;
       justify-content: space-between;
 
       height: 100%;
+
       .contact_modal__header {
         .contact_modal__header_content {
           display: flex;
           align-items: center;
           justify-content: space-between;
 
-          border-bottom: 1px solid lightgray;
+          border-bottom: 1px solid #d3d3d3;
           padding: 10px;
 
           span {

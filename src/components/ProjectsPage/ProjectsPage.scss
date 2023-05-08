@@ -10,47 +10,51 @@
 
     padding: 10px;
     .project_card {
+      // position: relative;
+
       width: 25rem;
       height: 25rem;
 
-      outline: 2px solid #101010;
       border-radius: 5px;
-
       padding: 10px;
+      outline: 2px solid #101010;
 
-      transition: all 0.2s;
+      // &::before {
+      //   content: "";
+      //   position: absolute;
+      //   top: 0;
+      //   left: 0;
+      //   width: 100%;
+      //   height: 100%;
+      //   opacity: 0;
+      //   background-image: url("../../assets/2B-project.jpg");
+      //   background-size: cover;
+      //   background-position: center;
+      //   transition: opacity 0.2s ease-in-out;
+      // }
+      // &:hover::before {
+      //   opacity: 1;
+      // }
+    }
 
-      &:hover {
-        transform: scale(1.03);
+    .project_card__content {
+      width: 100%;
+      min-width: 25rem;
+      height: 100%;
+
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+
+      .project_card__header {
       }
-
-      .project_card__content {
-        width: 100%;
-        min-width: 25rem;
-        height: 100%;
-
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-between;
-
-        .project_card__header {
-        }
-        .project_card__body {
-        }
-        .project_card__footer {
-          .project_techs_group {
-            img {
-              width: 2.7rem;
-
-              transition: all 0.2s;
-
-              &:hover {
-                transform: translateY(-5px);
-
-                transition: all 0.2s;
-              }
-            }
+      .project_card__body {
+      }
+      .project_card__footer {
+        .project_techs_group {
+          img {
+            width: 2.7rem;
           }
         }
       }

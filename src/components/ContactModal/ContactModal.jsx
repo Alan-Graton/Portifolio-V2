@@ -13,6 +13,7 @@ export default function ContactModal({ visible, setVisible }) {
           : "contact_modal__overlay_hidden"
       }
     >
+      {/* FIXME: Elements order should be: Modal, Modal Content, Form, Body and Footer */}
       <div className="contact__modal">
         <div className="contact_modal_content">
           <div className="contact_modal__header">
