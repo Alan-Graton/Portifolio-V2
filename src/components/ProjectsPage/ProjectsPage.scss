@@ -18,6 +18,12 @@
 
       padding: 10px;
 
+      transition: all 0.2s;
+
+      &:hover {
+        transform: scale(1.03);
+      }
+
       .project_card__content {
         width: 100%;
         min-width: 25rem;
