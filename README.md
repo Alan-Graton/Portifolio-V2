@@ -24,3 +24,10 @@
 ### Idioms Page
 
 ![Idioms Page](./public/prototypes/IdiomsPage.jpg)
+
+## Techs
+
+- JS
+- React
+- Vite
+- SaSS
