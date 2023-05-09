@@ -17,11 +17,9 @@ import "./ProjectsPage.scss";
 export default function ProjectsPage() {
   return (
     <>
-      {/* TODO: Add a img as background on these cards */}
       <section className="projects_section">
         <h2>Projects</h2>
         <div className="projects_list">
-          {/* TODO: On hover, remove all text from cards and let only the images */}
           <div className="project_card Contab_project">
             <div className="project_card__content">
               <div className="project_card__header">

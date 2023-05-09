@@ -61,11 +61,10 @@ body {
 }
 
 footer {
+  position: sticky;
+
   width: 100%;
-
-  position: fixed;
-
-  bottom: 0;
+  height: 10em;
 
   display: flex;
   align-items: center;
@@ -76,6 +75,47 @@ footer {
   border-top: 1px solid #454545;
 
   backdrop-filter: blur(5px);
+}
+
+.footer__social_media {
+  display: flex;
+
+  align-items: center;
+  justify-items: center;
+}
+
+.github_img {
+  transform: scale(1.2);
+}
+
+.footer__social_media ul li a img {
+  width: 3rem;
+  height: 3rem;
+}
+
+.footer__social_media ul li a {
+  display: flex;
+  align-items: center;
+}
+
+.footer__social_media ul li {
+  transition: all 0.2s ease-in-out;
+
+  filter: grayscale(1) ;
+}
+
+.footer__social_media ul li:hover {
+  transform: translateY(-5px);
+
+  filter: grayscale(0);
+}
+
+.footer__social_media ul {
+  display: flex;
+}
+
+ul li {
+  list-style: none;
 }
 
 h1 {

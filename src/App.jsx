@@ -7,6 +7,7 @@ import IdiomsPage from "./components/IdiomsPage/IdiomsPage";
 import ProjectsPage from "./components/ProjectsPage/ProjectsPage";
 import MyTimeInVG from "./components/MyTimeInVG/MyTimeInVG";
 import ContactModal from "./components/ContactModal/ContactModal";
+import ChallengesPage from "./components/ChallengesPage/ChallengesPage";
 
 function App() {
   const [modalVisible, setModalVisible] = React.useState(false);
@@ -28,6 +29,7 @@ function App() {
         </div>
         <LandingPage />
         <MyTimeInVG />
+        <ChallengesPage />
         <ProjectsPage />
         <IdiomsPage />
         <ContactModal visible={modalVisible} setVisible={setModalVisible} />
