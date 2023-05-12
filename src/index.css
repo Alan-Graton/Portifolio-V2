@@ -1,5 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Akshar&family=Poppins:wght@400;500;600&family=Quicksand:wght@300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100&family=Rubik:ital,wght@0,300;0,400;0,500;1,300;1,400&display=swap");
 
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Quicksand, Arial, sans-serif;
   line-height: 1.5;
@@ -60,7 +66,7 @@ body {
   min-height: 100vh;
 }
 
-footer {
+/* footer {
   position: sticky;
 
   width: 100%;
@@ -75,9 +81,9 @@ footer {
   border-top: 1px solid #454545;
 
   backdrop-filter: blur(5px);
-}
+} */
 
-.footer__social_media {
+/* .footer__social_media {
   display: flex;
 
   align-items: center;
@@ -116,7 +122,7 @@ footer {
 
 ul li {
   list-style: none;
-}
+} */
 
 h1 {
   font-size: 3.2em;
