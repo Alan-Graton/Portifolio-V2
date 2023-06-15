@@ -58,12 +58,34 @@ html {
 
 body {
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
   display: flex;
   flex-direction: column;
   place-items: center;
   font-family: "Quicksand", sans-serif;
   min-width: 320px;
-  min-height: 100vh;
+  height: 100vh;
+}
+main {
+  /* background-color: red; */
+
+  padding: 20px;
+}
+
+footer {
+  position: fixed;
+
+  right: 0;
+  left: 0;
+  bottom: 0;
+
+  width: 100%;
+  /* background-color: black; */
+  padding: 20px;
+  text-align: center;
+
+  color: white;
 }
 
 /* footer {

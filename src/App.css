@@ -1,7 +1,16 @@
 #root {
+  /* Added this so footer still responsive on mobile */
+  position: absolute;
+
   max-width: 1280px;
+  width: 100%;
+  /* Added this so footer still responsive on mobile */
+  min-height: 100vh;
+
   margin: 0 auto;
+
   padding: 2rem;
+
   text-align: center;
   font-weight: 400;
   letter-spacing: 2px;

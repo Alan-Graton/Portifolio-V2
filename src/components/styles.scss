@@ -1,0 +1,65 @@
+header {
+//   background-color: red;
+
+  width: 100%;
+
+  padding: 10px;
+
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+
+  .app_header__actions_btn {
+    display: flex;
+    align-items: center;
+
+    gap: 1rem;
+  }
+}
+
+footer {
+    /* This without the configs on root makes the footer perfect on wider screens */
+    position: fixed;
+
+    // background-color: rgba(0, 0, 255, 0.425);
+
+    width: 100%;
+
+    /* This without the configs on root makes the footer perfect on wider screens */
+    // left: 0;
+    bottom: 0;
+
+    // backdrop-filter: blur(10px);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .app_footer__social_media_list {
+        display: flex;
+        align-items: center;
+
+        padding: 5px;
+
+        gap: 1rem;
+
+        list-style-type: none;
+
+        li {
+            &:hover {
+                transform: translateY(-10px);
+            }
+            a {
+                img {
+                    width: 3rem;
+                    height: 3rem;
+                }
+
+                .github_logo {
+                    width: 3.5rem;
+                    height: 3.5rem;
+                }
+            }
+        }
+    }
+}

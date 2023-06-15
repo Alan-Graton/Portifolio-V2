@@ -1,16 +1,16 @@
 import React from "react";
 
-import react_logo from "../../assets/react.svg";
-import javascript_logo from "../../assets/javascript.svg";
-import typescript_logo from "../../assets/typescript.svg";
-import nodeJS_logo from "../../assets/node-js.svg";
-import css3_logo from "../../assets/css3.svg";
-import html5_logo from "../../assets/html-5.svg";
-import awslambda_logo from "../../assets/awslambda.svg";
-import serverless_logo from "../../assets/serverless.svg";
-import light_expo_logo from "../../assets/light_expo.svg";
-import dark_expo_logo from "../../assets/dark_expo.svg";
-import profile from "../../assets/AlanGraton.jpg";
+import react_logo from "../../../assets/react.svg";
+import javascript_logo from "../../../assets/javascript.svg";
+import typescript_logo from "../../../assets/typescript.svg";
+import nodeJS_logo from "../../../assets/node-js.svg";
+import css3_logo from "../../../assets/css3.svg";
+import html5_logo from "../../../assets/html-5.svg";
+import awslambda_logo from "../../../assets/awslambda.svg";
+import serverless_logo from "../../../assets/serverless.svg";
+import light_expo_logo from "../../../assets/light_expo.svg";
+import dark_expo_logo from "../../../assets/dark_expo.svg";
+import profile from "../../../assets/AlanGraton.jpg";
 
 import "./LandingPage.scss";
 

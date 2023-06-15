@@ -1,9 +1,9 @@
 import React from "react";
 
-import portuguese from "../../assets/portuguese.svg";
-import english from "../../assets/english.svg";
-import spanish from "../../assets/spanish.svg";
-import german from "../../assets/german.svg";
+import portuguese from "../../../assets/portuguese.svg";
+import english from "../../../assets/english.svg";
+import spanish from "../../../assets/spanish.svg";
+import german from "../../../assets/german.svg";
 
 import "./IdiomsPage.scss";
 
